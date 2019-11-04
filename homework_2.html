@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="New York News Portal">
+		<meta name="keywords" content="New York , news , portal">
+		<title>New York Times</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="https://www.nytimes.com/section/world" target="_blank" title="tap to open"> World news </a>
+				<a href="https://www.nytimes.com/section/politics" target="_blank" title="tap to open"> Political news </a>
+				<a href="https://www.nytimes.com/section/business/media" target="_blank" title="tap to open"> Media news </a>
+			</nav>
+			<hr>
+		</header>
+		<main>
+			<section title="main news" content="main news" style="color: blueviolet">
+				<h1>
+					D.Trump reshaped the presidency in over then 11 000 tweets
+				</h1>
+				<img
+						alt="D.Trupm tweets"
+						src="https://media13.s-nbcnews.com/j/MSNBC/Components/Video/201911/n_gura_dangersinTrumpstwitter_191103_1920x1080.nbcnews-fp-1024-512.jpg"
+						height="300"
+						width="600"
+						title="president of USA"
+				>
+				<p>
+					D. Trupm tweets something in his tweeter and this news has interested American citizens so much that it has received an article in the New York Times.
+					<br>
+					I just put something in here: bla bla bla.
+					<br>
+					And one more: bla bla bla bla bla bla.
+				</p>
+				<ul>
+					<li>
+						Trupm tweets
+					</li>
+					<li>
+						Trump eats
+					</li>
+					<li>
+						Trump trick or treats
+					</li>
+				</ul>
+				<p>
+					Here we have a <b>real news</b> and <b>links</b> to New York Times site
+				</p>
+			</section>
+			<section title="other news" content="other news" style="color: darkblue">
+				<h2>Other news</h2>
+				<article>
+					<h3 id="firstNews">
+						<a href="https://www.nytimes.com/interactive/2019/11/02/us/politics/trump-twitter-presidency.html?action=click&module=Top%20Stories&pgtype=Homepage" target="_blank" title="click to new more">
+							Donald Trump did something i don't actually get...lol
+						</a>
+					</h3>
+					<img
+							alt="D.Trupm tweets screen"
+							src="https://d.newsweek.com/en/full/628727/rtx38eqg.jpg"
+							height="200"
+							width="400"
+							title="president of USA"
+					>
+					<p>In here you can read about what D.Trump tweets in his tweeter<br> I don't really know what it's all about</p>
+					<button id="button1">
+						<img
+								alt="like img"
+								src="https://image.freepik.com/free-vector/facebook-like-icon_1017-8081.jpg"
+								height="20"
+								width="20"
+								title="likes"
+						>
+						<span id="likesQuantity1">0</span>
+					</button>
+					<span>
+						<img
+								alt="views img"
+								src="https://image.shutterstock.com/image-vector/wild-cat-eyes-on-black-600w-67448971.jpg"
+								height="20"
+								width="20"
+								title="views"
+						>
+						<span id="views1">0</span>
+					</span>
+					<script>
+						document.querySelector("#button1").addEventListener("click", function () {
+							 document.querySelector("#likesQuantity1").innerHTML++;
+						})
+						document.querySelector("#firstNews").addEventListener("click" , function () {
+                            document.querySelector("#views1").innerHTML++;
+                        })
+					</script>
+				</article>
+				<article>
+					<h3 id="secondNews">
+						<a href="https://www.nytimes.com/interactive/2019/11/02/us/politics/trump-twitter-presidency.html?action=click&module=Top%20Stories&pgtype=Homepage" target="_blank" title="click to new more">
+							D. Trump tweets opening message to US
+						</a>
+					</h3>
+					<img
+							alt="D.Trupm tweets"
+							src="https://static01.nyt.com/newsgraphics/2019/09/23/trump-tweets/a7695ee15e891945cc2ab768dd99d417e94e832b/whtweet.jpg"
+							height="200"
+							width="400"
+							title="president of USA"
+					>
+					<p>In here you can read about another D.Trump tweets in his tweeter<br> That's really interesting american people </p>
+					<button id="button2">
+						<img
+								alt="like img"
+								src="https://image.freepik.com/free-vector/facebook-like-icon_1017-8081.jpg"
+								height="20"
+								width="20"
+								title="likes"
+						>
+						<span id="likesQuantity2">0</span>
+					</button>
+					<span>
+						<img
+								alt="views img"
+								src="https://image.shutterstock.com/image-vector/wild-cat-eyes-on-black-600w-67448971.jpg"
+								height="20"
+								width="20"
+								title="views"
+						>
+						<span id="views2">0</span>
+					</span>
+					<script>
+                        document.querySelector("#button2").addEventListener("click", function () {
+                            document.querySelector("#likesQuantity2").innerHTML++;
+                        })
+                        document.querySelector("#secondNews").addEventListener("click" , function () {
+                            document.querySelector("#views2").innerHTML++;
+                        })
+					</script>
+				</article>
+				<article>
+					<h3 id="thirdNews">
+						<a href="https://www.nytimes.com/interactive/2019/11/02/us/politics/trump-twitter-disinformation.html?action=click&module=Top%20Stories&pgtype=Homepage" title="click to new more" target="_blank">
+							Something about Donald
+						</a>
+					</h3>
+					<img
+							alt="D.Trupm tweets"
+							src="https://d.newsweek.com/en/full/628727/rtx38eqg.jpg"
+							height="200"
+							width="400"
+							title="president of USA"
+					>
+					<p>President of US tweets in his tweeter<br> D.Trump is speaking to americans trough the tweeter </p>
+					<button id="button3">
+						<img
+								alt="like img"
+								src="https://image.freepik.com/free-vector/facebook-like-icon_1017-8081.jpg"
+								height="20"
+								width="20"
+								title="likes"
+						>
+						<span id="likesQuantity3">0</span>
+					</button>
+					<span>
+						<img
+								alt="views img"
+								src="https://image.shutterstock.com/image-vector/wild-cat-eyes-on-black-600w-67448971.jpg"
+								height="20"
+								width="20"
+								title="views"
+						>
+						<span id="views3">0</span>
+					</span>
+					<script>
+                        document.querySelector("#button3").addEventListener("click", function () {
+                            document.querySelector("#likesQuantity3").innerHTML++;
+                        })
+                        document.querySelector("#thirdNews").addEventListener("click" , function () {
+                            document.querySelector("#views3").innerHTML++;
+                        })
+					</script>
+				</article>
+			</section>
+			<hr>
+			<section title="popular athors" content="amason popular athors" style="color: brown">
+				<h2>Popular authors</h2>
+				<article id="GreggOlsen">
+					<h3>Gregg Olsen</h3>
+					<img
+							alt="Gregg Olsen photo"
+							src="https://images-na.ssl-images-amazon.com/images/I/91exX1QdxUL._SY600_.jpg"
+							width="100"
+							height="150"
+					>
+					<blockquote title="by Gregg Olsen">
+						<q>
+							I loved The Sound of Rain way beyond 5 stars so thank you for writing it.
+							My question is which of your other books have the twists and shocks that this one did?
+							You really had me on a roller coaster and it was awesome...
+						</q>
+					</blockquote>
+					<ol>
+						<li>
+							<a href="https://www.amazon.com/gp/product/B07Q5TL9SQ/ref=dbs_a_def_rwt_bibl_vppi_i0" target="_blank" title="click to see book" > If you tell </a>
+						</li>
+						<li>
+							<a href="https://www.amazon.com/gp/product/B07DTB52HJ/ref=dbs_a_def_rwt_bibl_vppi_i1" target="_blank" title="click to see book"> Lying next to me </a>
+						</li>
+						<li>
+							<a href="https://www.amazon.com/gp/product/B01HOEGQJS/ref=dbs_a_def_rwt_bibl_vppi_i2" target="_blank" title="click to see book"> The sound of rain </a>
+						</li>
+					</ol>
+				</article>
+				<article id="AlexMichaelides">
+					<h3>Alex Michaelides</h3>
+					<img
+							alt="Alex Michaelides photo"
+							src="https://images.gr-assets.com/authors/1526317750p8/17621440.jpg"
+							width="150"
+							height="150"
+					>
+					<blockquote title="by Alex Michaelides">
+						<q>
+							I studied English literature at Cambridge University and got my MA in screenwriting at the American Film Institute in Los Angeles. I wrote the film The Devil You Know (2013) starring Rosamund Pike and co-wrote The Con is On (2018), starring Uma Thurman...
+						</q>
+					</blockquote>
+					<ol>
+						<li>
+							<a href="https://www.goodreads.com/book/show/40097951-the-silent-patient" target="_blank" title="click to see book" > The Silent Patient </a>
+						</li>
+						<li>
+							<a href="https://www.goodreads.com/book/show/43194149-the-silent-patient" target="_blank" title="click to see book"> The Silent Patient: The First Three Chapters </a>
+						</li>
+						<li>
+							<a href="https://www.goodreads.com/book/show/45300567-untitled" target="_blank" title="click to see book"> Untitled </a>
+						</li>
+					</ol>
+				</article>
+				<article id="MargaretAtwood">
+					<h3>Margaret Atwood</h3>
+					<img
+							alt="Margaret Atwood photo"
+							src="https://images.gr-assets.com/authors/1282859073p8/3472.jpg"
+							width="100"
+							height="150"
+					>
+					<blockquote title="by Margaret Atwood">
+						<q>
+							Margaret Atwood was born in 1939 in Ottawa and grew up in northern Ontario, Quebec, and Toronto. She received her undergraduate degree from Victoria College at the University of Toronto and her master's degree from Radcliffe College.
+						</q>
+					</blockquote>
+					<ol>
+						<li>
+							<a href="https://www.goodreads.com/book/show/6080337-the-year-of-the-flood" target="_blank" title="click to see book" > The Year of the Flood </a>
+						</li>
+						<li>
+							<a href="https://www.goodreads.com/book/show/72579.Alias_Grace" target="_blank" title="click to see book"> Alias Grace </a>
+						</li>
+						<li>
+							<a href="https://www.goodreads.com/book/show/46756.Oryx_and_Crake" target="_blank" title="click to see book"> Oryx and Crake </a>
+						</li>
+					</ol>
+				</article>
+			</section>
+			<hr>
+		</main>
+		<footer>
+				<p>created by O.Sylakov</p>
+		</footer>
+	</body>
+</html>
