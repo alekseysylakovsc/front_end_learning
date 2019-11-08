@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Third news site</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="https://www.nytimes.com/section/world" target="_blank" title="tap to open"> World news </a>
+				<a href="https://www.nytimes.com/section/politics" target="_blank" title="tap to open"> Political news </a>
+				<a href="https://www.nytimes.com/section/business/media" target="_blank" title="tap to open"> Media news </a>
+			</nav>
+			<hr>
+		</header>
+		<main>
+			<article>
+				<h3 id="thirdNews">
+					<a href="https://www.nytimes.com/interactive/2019/11/02/us/politics/trump-twitter-disinformation.html?action=click&module=Top%20Stories&pgtype=Homepage" title="click to new more" target="_blank">
+						Something about Donald
+					</a>
+				</h3>
+				<img
+						alt="D.Trupm tweets"
+						src="https://d.newsweek.com/en/full/628727/rtx38eqg.jpg"
+						height="200"
+						width="400"
+						title="president of USA"
+				>
+				<p>President of US tweets in his tweeter<br> D.Trump is speaking to americans trough the tweeter </p>
+				<button id="button3">
+					<img
+							alt="like img"
+							src="https://image.freepik.com/free-vector/facebook-like-icon_1017-8081.jpg"
+							height="20"
+							width="20"
+							title="likes"
+					>
+					<span id="likesQuantity3">0</span>
+				</button>
+				<span>
+						<img
+								alt="views img"
+								src="https://image.shutterstock.com/image-vector/wild-cat-eyes-on-black-600w-67448971.jpg"
+								height="20"
+								width="20"
+								title="views"
+						>
+						<span id="views3">0</span>
+					</span>
+				<script>
+                    document.querySelector("#button3").addEventListener("click", function () {
+                        document.querySelector("#likesQuantity3").innerHTML++;
+                    })
+                    document.querySelector("#thirdNews").addEventListener("click" , function () {
+                        document.querySelector("#views3").innerHTML++;
+                    })
+				</script>
+			</article>
+			<br>
+			<br>
+			<hr>
+		</main>
+	</body>
+</html>
