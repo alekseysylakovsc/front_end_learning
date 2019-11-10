@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Working with forms</title>
+	</head>
+	<body>
+		<header>
+			<h1>Hotel registration form</h1>
+			<form action="#" method="get">
+				<div>
+					<label for="search">Search</label>
+					<input type="search" name="search" id="search">
+				</div>
+			</form>
+			<br>
+			<hr>
+		</header>
+		<main>
+			<form action="https://fom.in.ua/echo" method="get" enctype="multipart/form-data">
+				<div>
+					<label for="firstName">First name</label>
+					<input type="text" name="first name" id="firstName" placeholder="name" required>
+				</div>
+				<div>
+					<label for="secondName">Second name</label>
+					<input type="text" name="second name" id="secondName" placeholder="second name" required>
+				</div>
+				<br>
+				<div>
+					<label for="age">Age</label>
+					<input type="number" name="age" id="age" placeholder="age" min="1" max="120" step="any">
+				</div>
+				<div>
+					<label for="birthDate">Birth date</label>
+					<input type="date" name="birth date" id="birthDate">
+				</div>
+				<br>
+				<div>
+					Gender:
+					<div>
+						<label for="male">Male</label>
+						<input type="radio" name="gender" id="male" value="male">
+					</div>
+					<div>
+						<label for="female">Female</label>
+						<input type="radio" name="gender" id="female" value="female">
+					</div>
+				</div>
+				<br>
+				<div>
+					<label for="countries"> Country:</label>
+					<select name="countries" id="countries" >
+						<option value="Egypt">Egypt</option>
+						<option value="Turkey">Turkey</option>
+						<option value="Spain">Spain</option>
+						<option value="Italy">Italy</option>
+						<option value="United Kingdom">United Kingdom</option>
+						<option value="Thailand">Thailand</option>
+						<option label="Ukrain" value="Ukrain"></option>
+					</select>
+				</div>
+				<br>
+				<div>
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" placeholder="email" required>
+				</div>
+				<div>
+					<label for="password">Password:</label>
+					<input type="password" name="password" id="password" placeholder="password" required>
+				</div>
+				<div>
+					<label for="phone">Phone no:</label>
+					<input type="tel" name="phone no" id="phone" >
+				</div>
+				<br>
+				<div>
+					<label for="photo">Photo:</label>
+					<input type="file" name="photo" id="photo" >
+				</div>
+				<br>
+				<button type="submit">submit</button>
+				<button type="reset">reset</button>
+				<input type="hidden" name="hidden" value="Sylakov">
+				<br>
+				<hr>
+			</form>
+		</main>
+	</body>
+</html>
